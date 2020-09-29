@@ -16,8 +16,8 @@ jobs:
         sudo apt-get install -y python3-sphinx
         python3 -m pip install --upgrade pip
         python3 -m pip install setuptools
-        python3 install wheel
-        python3 install torch torchvision torchaudio
+        python3 -m pip install wheel
+        python3 -m pip install torch torchvision torchaudio
         cd docs
         python3 install -r requirements.txt
         pwd
