@@ -4,7 +4,7 @@ This library is part of the `PyTorch
 <http://pytorch.org/>`_ project. PyTorch is an open source
 machine learning framework.
 
-Features described in this documentaion are classified by release status:
+Features described in this documentation are classified by release status:
 
   *Stable:*  These features will be maintained long-term and there should generally
   be no major performance limitations or gaps in documentation.
