@@ -9,7 +9,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Dependencies
+    - name: Build the docset
       run: |
         echo `python3 --version`
         sudo apt-get install -y python3-setuptools
@@ -17,9 +17,6 @@ jobs:
         pip3 install torch torchvision torchaudio
         cd docs
         pip3 install -r requirements.txt
-    - name: Build the docset
-      run: | 
-        cd docs
         pwd
         make html
       id: build     
