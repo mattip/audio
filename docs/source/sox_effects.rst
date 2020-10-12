@@ -7,7 +7,7 @@ torchaudio.sox_effects
 
 .. warning::
 
-   The :py:class:`SoxEffect` and :py:class:`SoxEffectsChain` classes are deprecated. Please migrate to :func:`apply_effects_tensor` and :func:`apply_effects_file`.
+   `SoxEffect` and `SoxEffectsChain` are deprecated. Please migrate to :func:`apply_effects_tensor` and :func:`apply_effects_file`.
 
 Resource initialization / shutdown
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -39,11 +39,10 @@ Applying effects on file
 Legacy
 ~~~~~~
 
-SoxEffect
----------
+SoxEffect (deprecated)
+----------------------
 
-.. autoclass:: SoxEffect
-  :members:
+.. autofunction:: SoxEffect
 
 SoxEffectsChain
 ---------------

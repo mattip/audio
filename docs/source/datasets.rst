@@ -86,7 +86,6 @@ TEDLIUM
 
 .. autoclass:: TEDLIUM
   :members: __getitem__
-  :special-members: get_phoneme_dict
 
 VCTK
 ~~~~
